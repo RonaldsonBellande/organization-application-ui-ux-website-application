@@ -2,9 +2,9 @@
   "name": "organization-application-ui-ux-website-application-electron",
   "appId": "com.organization-application-ui-ux-website-application.ronaldsonbellande.${name}",
   "productName": "Organization-Application-UI-UX-Website-Application",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Linux desktop web app for Organization-Application-UI-UX-Website-Application",
-  "main": "scripts/main.js",
+  "main": "scripts/index.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder --publish never"
