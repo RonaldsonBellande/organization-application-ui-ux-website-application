@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Organization-Application-UI-UX-Website-Application
+Comment=entertainment services with organization-application-ui-ux-website-application
+Comment[ro]=entertainment services with organization-application-ui-ux-website-application
+Type=Application
+Exec=/opt/organization-application-ui-ux-website-application-electron/organization-application-ui-ux-website-application-electron
+Icon=organization-application-ui-ux-website-application
+StartupWMClass=organization-application-ui-ux-website-application
+Categories=Network;Entertainment
+Keywords=Entertainment;Streaming;Organization-Application-UI-UX-Website-Application;organization-application-ui-ux-website-application;YT
+Keywords[ro]=Entertainment;Streaming

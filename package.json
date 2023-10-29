@@ -1,0 +1,38 @@
+{
+  "name": "organization-application-ui-ux-website-application-electron",
+  "appId": "com.organization-application-ui-ux-website-application.ronaldsonbellande.${name}",
+  "productName": "Organization-Application-UI-UX-Website-Application",
+  "version": "2.0.0",
+  "description": "A Linux desktop web app for Organization-Application-UI-UX-Website-Application",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --publish never"
+  },
+  "build": {
+    "asar": false,
+    "linux": {
+      "target": [
+        "zip",
+        "AppImage"
+      ],
+      "category": "Entertainment",
+      "artifactName": "${name}_${version}_linux.${ext}"
+    },
+    "extraFiles": [
+      "com.organization-application-ui-ux-website-application.ronaldsonbellande.${name}.desktop"
+    ]
+  },
+  "repository": "https://organization-application-ui-ux-website-application.com/ronaldsonbellande/organization-application-ui-ux-website-application-electron",
+  "keywords": [
+    "Electron",
+    "organization-application-ui-ux-website-application",
+    "Organization-Application-UI-UX-Website-Application"
+  ],
+  "author": "Ronaldson Bellande <ronaldsonbellande@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  }
+}
