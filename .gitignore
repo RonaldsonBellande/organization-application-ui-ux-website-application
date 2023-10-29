@@ -1,1 +1,4 @@
 node_modules
+repository_recal.sh
+push.sh
+npm_install.sh
