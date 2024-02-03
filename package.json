@@ -9,6 +9,9 @@
     "start": "electron .",
     "build": "electron-builder --publish never"
   },
+  "bin": {
+    "${name}": "scripts/index.js"
+  },
   "build": {
     "asar": false,
     "linux": {
